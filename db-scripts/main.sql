@@ -20,3 +20,10 @@ CREATE TABLE user(
                      name VARCHAR(100) NOT NULL,
                      password VARCHAR(300) NOT NULL
 );
+
+CREATE TABLE `user2`
+(
+    username VARCHAR(100) PRIMARY KEY,
+    name     VARCHAR(100) NOT NULL,
+    password VARCHAR(300) NOT NULL
+);
